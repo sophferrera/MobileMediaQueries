@@ -1,0 +1,360 @@
+
+.navMenu, .tipOfDay, .question, .answer, .budget, .info {
+  font-family: 'Sue Ellen Francisco', cursive;
+}
+
+.faq, .howTo, .mapTime, .remember {
+  font-family: 'Mansalva', cursive;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-shadow: 3px 3px #D9FFD9;
+}
+
+body {
+  background-image: url(background3.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+.header {
+  display: flex;
+}
+
+.soph {
+  font-family: 'Mansalva', cursive;
+  text-shadow: 3px 3px #D9FFD9;
+}
+
+.soph1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  font-size: 15vmin;
+
+}
+
+.soph2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 8vmin;
+}
+
+.head1, .head2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.head2 {
+  transform: scaleX(-1);
+  right: 20vmin;
+}
+
+.tipOfDay {
+  color: #D9FFD9;
+  padding: 10px;
+
+  font-size: 8vmin;
+}
+
+.tipOfDay p {
+  margin: 0;
+}
+
+.tipBox {
+  background-image: url("background6.png");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.tip {
+  padding: 20px;
+}
+
+.budget a, a:visited {
+  color: #DAD4FD;
+  text-decoration: underline;
+}
+
+.qa {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.questionBox {
+  background-image: url("background1.jpg");
+  width: 100%;
+}
+
+.question {
+  color: #D9FFD9;
+  font-size: 8vmin;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.answer {
+  color: #DAD4FD;
+  font-size: 8vmin;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+
+.info {
+  padding-left: 4vmin;
+  color: #D9FFD9;
+  background-image: url("background5.png");
+  font-size: 8vmin;
+}
+
+.faq, .howTo, .mapTime, .remember {
+  color: #111;
+  font-size: 10vmin;
+}
+
+.cheetah {
+  background-image: url("background4.png");
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+
+
+}
+
+.budget {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  color: #DAD4FD;
+  font-size: 8vmin;
+}
+
+.mapSec {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.map {
+  padding: 4vmin;
+}
+
+.alien, .berry, .bolt, .cactus, .cherry, .cupcake, .donut, .lolli, .melon, .mouth, .peace, .point, .teeth {
+  top: 1800px;
+  left: 100px;
+  position: fixed;
+}
+
+@media screen and (min-width: 768px) {
+
+  .head1, .head2 {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+  }
+
+  .head1 {
+    left: 20vmin;
+  }
+
+  .head2 {
+    transform: scaleX(-1);
+    right: 20vmin;
+  }
+
+  .soph {
+    padding-top: 50px;
+  }
+
+  .soph1 {
+    font-size: 15vmin;
+  }
+
+  .soph2 {
+    font-size: 8vmin;
+  }
+
+  .faq, .howTo, .mapTime, .remember {
+    font-size: 8vmin;
+  }
+
+  .tipOfDay {
+    font-size: 4vmin;
+  }
+
+  .tipBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .question, .answer, .info, .budget {
+    font-size: 5vmin;
+  }
+
+  .questionBox {
+    width: 65%;
+  }
+
+  .cheetah {
+    width: 65%;
+  }
+
+  a, a:visited {
+    color: #05F2C7;
+    text-decoration: none;
+  }
+
+  .box {
+    padding: 15px;
+  }
+
+  .budget a, a:visited {
+    color: #DAD4FD;
+    text-decoration: underline;
+  }
+
+  .mapSec {
+    flex-direction: row;
+  }
+
+  .alien {
+  position: absolute;
+  top: 1300px;
+  left: 1200px;
+  transform: rotate(-40deg);
+}
+
+.berry {
+  top: 4500px;
+  left: 1200px;
+  position: absolute;
+  transform: rotate(60deg);
+
+}
+
+.bolt {
+  top: 340px;
+  left: 1150px;
+  position: absolute;
+
+}
+
+.cactus {
+  top: 1150px;
+  left: 60px;
+  position: absolute;
+
+}
+
+.cherry {
+  top: 4300px;
+  left: 70px;
+  position: absolute;
+
+}
+
+.cupcake {
+  top: 3500px;
+  left: 50px;
+  position: absolute;
+
+}
+
+.donut {
+  top: 2600px;
+  left: 130px;
+  position: absolute;
+
+}
+
+.lolli {
+  top: 5500px;
+  left: 1200px;
+  position: absolute;
+  transform: rotate(30deg);
+
+}
+
+.melon {
+  top: 5000px;
+  left: 140px;
+  position: absolute;
+
+}
+
+.mouth {
+  top: 1800px;
+  left: 100px;
+  position: absolute;
+
+}
+
+.peace {
+  top: 3000px;
+  left: 1200px;
+  position: absolute;
+
+}
+
+.point {
+  top: 2150px;
+  left: 1200px;
+  position: absolute;
+
+}
+
+.teeth {
+  top: 5400px;
+  left: 50px;
+  position: absolute;
+
+}
+
+.blue {
+  position: absolute;
+  left: 110px;
+  top: 3000px;
+  transform: rotate(-10deg);
+}
+
+.cute {
+  position: absolute;
+  left: 1150px;
+  top: 2600px;
+  transform: rotate(-10deg);
+
+}
+
+.design {
+  position: absolute;
+  left: 100px;
+  top: 2270px;
+  transform: rotate(15deg);
+
+}
+
+.shoes {
+  position: absolute;
+  top: 4870px;
+  left: 1150px;
+  transform: rotate(30deg);
+}
+
+
+
+}
